@@ -12,8 +12,7 @@ public class Main {
 			Arrays.fill(reward[x], 0);
 
 		reward[goal.x][goal.y] = 1;
-		for(int y = 0; y < 10; y++)
-			reward[10][y] = -0.01;
+		Arrays.fill(reward[10], -0.01);
 		reward[10][4] = 0;
 		reward[10][5] = 0;
 			QLearner q = new QLearner(reward, goal);
