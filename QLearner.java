@@ -159,6 +159,7 @@ public class QLearner {
 			System.out.println("\n");
 		}
 		
+		
 	}
 	
 	void learn(Random r)
