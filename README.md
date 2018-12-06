@@ -1,7 +1,7 @@
 ### AI Project 7
 
 ## Q-Learing
-Implement Q-learning. Here is some pseudocode for one iteration of Q-learning. Your program will call this in a loop until it converges:
+Implement Q-learning. Here is some pseudocode that I used for one iteration of Q-learning. 
 
 ```
 // Pick an action
