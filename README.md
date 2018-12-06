@@ -36,7 +36,7 @@ Apply the equation below to update the Q-table.
 	Q(j,b) refers to the Q-table entry for doing
 		action "b" in state "j".
 	Use 0.1 for αk. (Don't get "αk" mixed up with "a".)
-	use 0.97 for γ (gamma).
+	use 0.97 for γ (gamma).sebastian_edwards@nextstepinnovation.com
 	A(j) is the set of four possible actions, {<,>,^,v}.
 	r(i,a,j) is the reward you obtained when you landed in state j.
 
